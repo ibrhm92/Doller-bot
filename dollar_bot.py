@@ -16,8 +16,8 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # =====================================================
-TELEGRAM_TOKEN         = os.environ.get("TELEGRAM_TOKEN","8554012463:AAEhV7FRk1qeJp1kGi0BH_Z9CNCrt-W8qIs")
-EXCHANGE_API_KEY       = os.environ.get("EXCHANGE_API_KEY","06676dfc06882d45737efeca")
+TELEGRAM_TOKEN         ="8554012463:AAEhV7FRk1qeJp1kGi0BH_Z9CNCrt-W8qIs"
+EXCHANGE_API_KEY       = "06676dfc06882d45737efeca"
 ADMIN_CHAT_ID          = int(os.environ.get("ADMIN_CHAT_ID", "0"))
 CHECK_INTERVAL_SECONDS = 15         # كل 30 ثانية
 MIN_CHANGE             = 0.001       # أقل تغيير يستحق تنبيه (5 قروش)
